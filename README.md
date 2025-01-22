@@ -1,0 +1,40 @@
+# SN-BLOG
+
+## Purpose of this project
+- This project is to learn how to develop site in JAMSTACK way with the free of costs.
+- Another purpose is to remember how to build a react site.
+- Ref-site: this site is built by following site instruction
+    - [git](https://github.com/tsuchinoko0402/old_website/blob/main/README.md?plain=1)
+    - [QIITA](https://qiita.com/tsuchinoko0402/items/e47b2e05c47773130b11)
+
+## Tech stack
+- TypeScript
+- Gatsby
+- microCMS
+- Firebase
+
+### Steps
+1. Register microCMS, and get API and service keyキーとサービス ID
+- Set the env-variables
+    - `MICROCMS_API_KEY`: microCMS の API キーの値
+    - `MICROCMS_SERVICE_ID`: microCMS のサービス ID
+    - `GOOGLE_ANALYTICS_TRACKING_ID`: Google Analytics のトラッキング ID
+2. Deploy env server
+```shell
+$ yarn develop
+```
+
+3. build
+```shell
+$ yarn build
+```
+
+4. Acctivation process of the working env-server
+- Create an account on the Firebase
+- Make the project
+- Change the setting of `.firebaserc` 
+
+5. Deploy command
+```shell
+$ yarn deploy
+```
