@@ -13,12 +13,17 @@
 - microCMS
 - Firebase
 
-### Steps
+## Tested template
+### sn-blog
+### test
+
+## Actication Steps
 1. Register microCMS, and get API and service keyキーとサービス ID
 - Set the env-variables
     - `MICROCMS_API_KEY`: The API key value of Micro CMS
     - `MICROCMS_SERVICE_ID`: The service ID for microCMS
     - `GOOGLE_ANALYTICS_TRACKING_ID`: Tracking id for Google Analytics
+
 2. Deploy env server
 ```shell
 $ yarn develop
@@ -37,4 +42,10 @@ $ yarn build
 5. Deploy command
 ```shell
 $ yarn deploy
+```
+
+> This is just a firebase deployment
+> You need to first test your local env 
+```shell
+$ gatsby develop
 ```
