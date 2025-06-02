@@ -15,7 +15,13 @@
 
 ## Tested template
 ### sn-blog
-### test
+#### Check on your locals
+
+0.  Activate and check your local host
+- You need to first test your local env before setup the firebase
+```shell
+$ gatsby develop
+```
 
 ## Actication Steps
 1. Register microCMS, and get API and service keyキーとサービス ID
@@ -44,8 +50,3 @@ $ yarn build
 $ yarn deploy
 ```
 
-> This is just a firebase deployment
-> You need to first test your local env 
-```shell
-$ gatsby develop
-```
